@@ -1,0 +1,48 @@
+strictly follow the instruction, categorize each organization into one or more of the given categories based the organization description presented.
+
+categories and their descriptions are listed below, in format "category": "description", focus on the description carefully:
+{
+"Medical": "medical care institutions, biotechnology, pharmaceuticals, life sciences and healthcare technology.",
+"Finance": "Finance Institutions, including Banks, Insurance, Investment.",
+"Fossil Energy": "Fossil energy companies, Coal, Oil & Gas Drilling, Exploration, Production, Refining. exclude regulatory agencies. exclude petrochemicals",
+"Utilities": "Companies that produce or distribute electricity, natural, manufactured gas and water to end consumers.",
+"Internet Infrastructure": "data centers, storage infrastructure, web hosting, cloud servers, content delivery network, domain name registrar, public key infrastructure (PKI).",
+"Media": "Company involved in content creation and distribution including advertising, publishing, producers of movies, television, music, or games or broadcast programs, as well as online platforms like search engines and social media.",
+"Transportation": "Transportation Companies or Transportation Infrastructure Operators. Exclude Manufacturers of Transportation vehicles.",
+"Defense Manufacturer": "Defense industry companies. exclude military, government agencies, security companies",
+"Education": "Schools, Colleges, Universities",
+"Research": "Research and Development Organizations. exclude schools",
+"ISP": "internet or telecommunication providers providing access to end users",
+"Government": "Government and Regulatory Agencies, Administrations, Departments, Military. exclude Education & Research, Non-profit organizations, Defense Manufacturer.",
+"Real Estate": "Real Estate Operating , Development & Services",
+"Retail & Distribution": "Retailers, Distributors, E-commerce, and Internet Retail",
+"Services": "commercial printing, human resources and employment,Research & Consulting Services, information vendor, Administrative and Support and Waste Management and Remediation Services, Legal, Accounting, Tax Preparation, Bookkeeping, Payroll, Design Services, Management.",
+"Technological Hardware": "Manufacturers of communication equipment (routers, switches), storage (hard drives, memory), and peripheral devices (mice, keyboards), mobile phones, computers, instruments, semiconductors, photovoltaic materials, also including electronic product manufacturing services. excluding consumer electronics and Electric Housewares.",
+"Fundamental Materials": "Materials and chemical companies, including Chemicals, Industrial Gases, Construction Materials,Building Products, Forest Products, Home Furnishings, Metal, Glass & Plastic Containers, Paper & Plastic Packaging Products & Materials, Paper Products, Housewares & Specialties, Metals & Mining. exclude electronic components, machinery components and electrical components. exclude regulatory agencies.",
+"Software": "Software Developers, including System Software and Software not classified elsewhere.",
+"Capital Goods": "manufacturers of machinery, equipment, and components, building products, aerospace, construction, engineering, electrical components, heavy electrical equipment, construction machinery, heavy transportation equipment, agricultural and farm machinery, and industrial machinery. include industrial automation.",
+"Automotive": "Manufacturers of Automobiles, motorcycles, and its accessories, excluding heavy-duty trucks.",
+"Hotels & Food & Leisure": "including Casinos & Gaming, Hotels, Resorts, Restaurants, Leisure Facilities",
+"IT Services": "Computer Systems Design and Related Services. including Computer facilities management services, Custom computer programming services, Computer systems integration design services, Computer hardware or software consulting services, Software installation services. excluding Software Developers and Publishers.",
+"Cybersecurity": "computer, network and cyberspace security companies. including services and software.",
+"Other": "Other industries not listed above",
+"UnKnown": "Unknown"
+}
+Noting that you should not give category that do not in the list; explain the reason you give the category first, and give the category list at the end the response, in format {”categories”:[<category1>, <category2>, ...]}
+should not give answer with low confidence, if you are not sure, you should choose the category 'UnKnown'
+you should choose the category 'Other', if the given description matches no other categories in the list or matches the example in the 'Other' category
+you should choose the category 'UnKnown', if the given description is not enough to judge
+if the given description does not describe an organization, you should choose the category 'UnKnown'
+some corner cases are given as examples below, you should learn from them and follow the same logic to handle similar cases properly
+
+example: Input: Microsoft: Microsoft's best-known software products are the Windows line of operating systems, the Microsoft 365 suite of productivity applications, and the Edge web browser. Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers.” Output: {”categories”: ["Software", "Technological Hardware"]}. In the description, Microsoft serves system and professional software products not classified into other categories, such as operating systems, productivity applications and browser, so it can be classified into “Software” category.  It also mentions hardware products like personal computers, video game consoles, which falls into “Electronic Components & Equipment” category.So, the categories are ["Software", "technological hardware"]. For the rest of the categories, the organization is not likely to be classified in. It is not sure whether it can be categorized into "Defense Manufacturer" category based on the description, so it is not presented in the output.
+
+example: Input: General Dynamics: General Dynamics Corporation GD is an American publicly traded aerospace and defense corporation headquartered in Reston Virginia As of it was the fifth-largest defense contractor in the world by arms sales and fifth largest in the United States by total sales. Output: {”categories”: ["Machinery", "Defense Manufacturer"]}. The description matches the "Machinery" category as it mentions aerospace trading. And as it mentions “defense”, “defense contractor”, and “arms sales”, it is also likely to be in "Defense Manufacturer" category.
+
+example: Input: Comcast: Comcast Corporation is the largest American multinational telecommunications and media conglomerate. The corporation is the second-largest broadcasting and cable television company in the world by revenue (behind AT&T), and is also the largest pay-TV company, the largest cable TV company, and largest home Internet service provider in the United States.Output: {”categories”: ["ISP", "Media"]}.For the categories, the description matches the"ISP" because it explicitly defines the organization as “Internet service provider” which falls in the "ISP" category. It also mentions broadcasting and pay-TV, so it can be categorized into "Media & Entertainment" category.
+
+example: Input: Avnet, Inc.: Avnet Inc is a distributor of electronic components headquartered in Phoenix Arizona named after Charles Avnet who founded the company. Output:{”categories”: ["Retail & Distribution"]}. it mentions "distributor of electronic components" which should be in "Retail & Distribution" category. So, it is categorized into "Retail & Distribution" category. Although it mentions "electronic components", it is "distributor of electronic components" instead of "manufacturers of electronic components", although its core business revolves around electronic components, it should not be categorized into "technological hardware" category.
+
+example: Input: DTE Energy: DTE Energy (formerly Detroit Edison until 1996) is a Detroit-based diversified energy company involved in the development and management of energy-related businesses and services in the United States and Canada. Its operating units include an electric utility serving 2.2 million customers and a natural gas utility serving 1.3 million customers in Michigan.  Output: {”categories”: ["Utilities"]}. The description matches the "Utilities" category as it mentions electric and natural gas utilities. It should not be categorized into "Fossil Energy" category, because it does not mention any fossil energy business. So, it is categorized into "Utilities" category.
+give a response no less than 50 words, examine your answer, Noting that you should not give category that do not in the list.
+please categorize the following organization:

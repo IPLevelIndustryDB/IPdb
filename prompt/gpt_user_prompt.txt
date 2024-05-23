@@ -1,0 +1,5 @@
+please judge whether the organization matches the category "<<category>>" which definition is <<definition>>
+
+identify the main business of the organization. explain the reason first and then output "Yes" or "No" as your answer, if you are not sure, output "No".
+if the given description is not enough to judge or given description does not describe any organization, output "No"
+the organization and its description:

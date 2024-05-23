@@ -1,0 +1,111 @@
+Edgecast Inc.
+Edgio, Inc.
+httpd@digramm.adns.de
+CDNetworks Inc.
+Khoros, LLC
+
+中華電信股份有限公司
+Akamai Technologies, Inc.
+Cloudflare, Inc.
+Odin
+Acme Co
+iomart
+New Dream Network LLC dba Dreamhost
+Plesk
+ispgateway
+XX
+Parallels
+Apache HTTP Server
+Domeneshop AS
+Internet Widgits Pty Ltd
+CloudFlare, Inc.
+testexample
+Host Europe GmbH
+FastMail Pty Ltd
+Dis
+My Company
+Test Self SSL Company
+Comcast Corporation
+Global Security
+Nginx Proxy Manager
+SpinupWP
+Powerhosting ApS
+MK-AUTH
+MyCompany LLC
+Team Internet AG
+GitHub, Inc.
+bplaced
+Squarespace, Inc.
+CentOS Web Panel
+MyCompany
+FASTPANEL
+3 in 1 Hosting Bt.
+Deutsche Telekom AG
+Netlify, Inc
+Unknown Inc.
+WEDOS Internet, a.s.
+Strato AG
+Fortinet Inc.
+GridPane
+netcup GmbH
+British Telecommunications plc
+FASTVPS
+Companyname
+Bitrix
+LiteSpeedCommunity
+Hestia Control Panel
+KeyHelp
+mkcert development certificate
+Bitrix Inc.
+OVH
+unknown
+pfSense webConfigurator Self-Signed Certificate
+domainerschoice
+N/A
+WatchGuard
+My Company Ltd
+Hutchison Drei Austria GmbH
+Fortinet
+Bitnami
+dhosting.pl Sp. z o.o.
+Brainy
+myVesta Control Panel
+-
+NA
+ip&more GmbH
+NTT Communications Corporation
+Unconfigured OpenSSL Installation
+mail server
+HostProfis ISP Telekom GmbH
+Apache Friends
+Stormshield
+Mirohost
+Draytek
+DirectAdmin Self-Signed
+RRR
+Gabia,Inc.
+Pyxsoft Computing Ltd.
+L7FW
+GMO CLOUD K.K.
+SecureSign Inc
+SWsoft, Inc.
+my Organization
+QNAP Systems, Inc.
+HTTPS Management Certificate for SonicWALL (self-signed)
+systemgraphi
+DrayTek Corp.
+Team John Long Software
+Future Spirits
+Global IT Operations Hosting (21426135)
+Fasthosts Internet Limited
+Kinex Telecom
+Zoidial Incorporated
+Greenhost
+Updata Infrastructure (UK) Ltd
+SomeOrganization
+网宿科技股份有限公司厦门分公司
+none
+Abacus Software Limited
+Parallels, Inc.
+Default Company Ltd
+Amazon.com, Inc.

@@ -1,0 +1,214 @@
+*.
+# Edgecast Inc.
+  edgecastcdn.net
+  ntt.net
+  nttcdn.com
+  alphacdn.net
+  v2cdn.net
+  edgecastcdn.net
+# Edgio, Inc.
+  edgio.net
+# 中華電信股份有限公司:
+  hinet.net
+# Akamai Technologies, Inc.:
+  akamaized-staging.net
+  akamaihd-staging.net
+  akamai.net
+  akamaized.net
+  akamaihd.net
+# Cloudflare, Inc.:
+  one.one
+  cloudflare-dns.com
+  cloudflaressl.com
+# Edgecast Inc.:
+# Odin:
+# Acme Co:
+  ingress.local
+# iomart:
+# New Dream Network LLC dba Dreamhost:
+  dreamhost.com
+# Plesk:
+  netcup.net
+# ispgateway:
+  ispgateway.de
+# XX:
+  regruhosting.ru
+  5data.ru
+# Parallels:
+# Apache HTTP Server:
+  omc.net
+# Domeneshop AS:
+  domeneshop.no
+# Internet Widgits Pty Ltd:
+  no-ssl.com
+  nginx.local
+  not.today
+# CloudFlare, Inc.:
+  eth0.no
+# testexample:
+# Host Europe GmbH:
+  hosteurope.de
+  mywebdav.de
+  server-he.de
+  server-he.ch
+# FastMail Pty Ltd:
+  user.fm
+# Dis:
+  example.com
+# My Company:
+  mydomain.com
+# Test Self SSL Company:
+  spaceweb.ru
+# Comcast Corporation:
+# Global Security:
+  example.com
+# Nginx Proxy Manager:
+# SpinupWP:
+# Powerhosting ApS:
+  powerhosting.dk
+# MK-AUTH:
+# MyCompany LLC:
+# Team Internet AG:
+  parkingcrew.net
+# GitHub, Inc.:
+  github.com
+  githubusercontent.com
+  github.io
+# bplaced:
+# Squarespace, Inc.:
+  squarespace-mail.com
+  squarespace.com
+  campaign-preferences.com
+  sqspcdn.com
+  sqsp.net
+# CentOS Web Panel:
+# MyCompany:
+# FASTPANEL:
+# 3 in 1 Hosting Bt.:
+  megacp.com
+# Edgio, Inc.:
+# Deutsche Telekom AG:
+  t-online.de
+# Netlify, Inc:
+  netlify.app
+# Unknown Inc.:
+# WEDOS Internet, a.s.:
+  wedos.ws
+# Strato AG:
+  strato.com
+  livepages.fr
+  livepages.nl
+  livepages.co.uk
+  livepages.es
+  livepages.de
+  strato.nl
+  strato.fr
+# Fortinet Inc.:
+# GridPane:
+# netcup GmbH:
+  netcup.net
+# British Telecommunications plc:
+  bt.com
+# FASTVPS:
+# Companyname:
+  regruhosting.ru
+# Bitrix:
+# LiteSpeedCommunity:
+# Hestia Control Panel:
+# KeyHelp:
+  hqgmbh.eu
+  keyweb.ru
+# mkcert development certificate:
+# Bitrix Inc.:
+# OVH:
+  ip-51-91-218.eu
+# unknown:
+# pfSense webConfigurator Self-Signed Certificate:
+# domainerschoice:
+  traffic.club
+# N/A:
+# WatchGuard:
+# My Company Ltd:
+# Hutchison Drei Austria GmbH:
+  drei.at
+  drei.host
+# Fortinet:
+# Bitnami:
+  example.com
+# dhosting.pl Sp. z o.o.:
+  dhosting.pl
+# Brainy:
+# myVesta Control Panel:
+# -:
+# NA:
+# ip&more GmbH:
+  ipandmore.de
+# NTT Communications Corporation:
+  bizmw.com
+  ntt.com
+# Unconfigured OpenSSL Installation:
+# mail server:
+# HostProfis ISP Telekom GmbH:
+  server-routing.com
+# Apache Friends:
+# Stormshield:
+# Mirohost:
+# Draytek:
+# DirectAdmin Self-Signed:
+  isp007.com
+# RRR:
+# Gabia,Inc.:
+  gabia.io
+  bizgabia.com
+  gabia.com
+# Pyxsoft Computing Ltd.:
+# L7FW:
+  common.com
+# GMO CLOUD K.K.:
+  shared-server.net
+# httpd@digramm.adns.de
+  adns.de
+# CDNetworks Inc.:
+  cdnetworks.com
+  cdnetworks.net
+  cdngc.net
+  cdnetworks.co.jp
+# SecureSign Inc:
+  ssl-certificate-required.com
+# SWsoft, Inc.:
+# my Organization:
+  mydomain.com
+# QNAP Systems, Inc.:
+# HTTPS Management Certificate for SonicWALL (self-signed):
+# systemgraphi:
+  s-graphi.co.jp
+# DrayTek Corp.:
+  draytek.com
+# Team John Long Software:
+  raidenftpd.com
+  raidenmaild.com
+# Future Spirits:
+# Global IT Operations Hosting (21426135):
+  estore-sslserver-qa.us
+# Fasthosts Internet Limited:
+  web.hosting
+# Kinex Telecom:
+  kinex.net
+# Zoidial Incorporated:
+# Greenhost:
+# Updata Infrastructure (UK) Ltd:
+  kcn.org.uk
+# SomeOrganization:
+# Khoros, LLC:
+  lithium.com
+# 网宿科技股份有限公司厦门分公司:
+  chinanetcenter.com
+  wscdns.com
+  lxdns.net
+  lxdns.com
+  cdn20.com
+# none:
+# Abacus Software Limited:
+  webvisioncloud.com
+# Parallels, Inc.:
+# Default Company Ltd:
