@@ -16,7 +16,8 @@ if __name__ == '__main__':
     input_path = sys.argv[1]
     output_path = sys.argv[2]
     with open(input_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+        csv_reader = csv.reader(f)
+        lines = [line for line in csv_reader]
 
     gemini_label_res = gemini_label(lines)
     glm_label_res = glm_label(lines)
