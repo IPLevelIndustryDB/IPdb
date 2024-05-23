@@ -1,0 +1,7 @@
+strictly follow the instruction, give a response no less than 50 words. Be careful with you answer. Do not give answer with low confidence
+
+please judge whether the organization matches the category "<<category>>" which definition is <<definition>>
+
+identify the main business of the organization first, then explain the reason and finally output "Yes" or "No" as your answer, if you are not sure, output "No".
+if the given description is not enough to judge or given description does not describe any organization, output "No"
+the organization and its description:
