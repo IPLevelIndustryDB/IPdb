@@ -8,5 +8,7 @@ We also provide a Large Language Model based Industry Categorization System in t
 To use the system, you should
 1. configure the /LLMICS/params.py, to set path or API key of the LLMs
 2. run: python ./LLMICS/main.py <input_file> <output_file>
-    <input_file> specifies the path to the input csv format file, which contains the organization name and description, each on a separate line.
-    <output_file> specifies the path to the output csv format file
+
+   <input_file> specifies the path to the input csv format file, which contains the organization name and description, each on a separate line.
+
+   <output_file> specifies the path to the output csv format file
