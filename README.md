@@ -54,12 +54,12 @@ To use the system, you should
 
     to categorize the organizations into industries by individual LLMs
 
-6. run 
+6. run
 
-  ```
-  python ./main.py --time_stamp <time_stamp> --mode label_wiki --label_wiki_model combine --combine_label_model ./llm_label/llmics.pkl
-  ```
+   ```
+   python ./main.py --time_stamp <time_stamp> --mode label_wiki --label_wiki_model combine --combine_label_model ./llm_label/llmics.pkl
+   ```
 
-   to combine the results of individual LLMs
+    to combine the results of individual LLMs
 
 The results will be stored in the database.
