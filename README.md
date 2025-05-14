@@ -1,7 +1,5 @@
 # IPdb
-IPdb: A High-precision Industry Categorization of IP Addresses
-
-We provide the IP to Industry dataset in ip_industry_2024_01.csv
+[[WWW'25] IPdb: A High-precision Industry Categorization of IP Addresses](https://dl.acm.org/doi/10.1145/3696410.3714669)
 
 We also provide the source code of IPdb system
 
