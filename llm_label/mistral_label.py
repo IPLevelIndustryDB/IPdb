@@ -58,7 +58,7 @@ def mistral_label(time_stamp):
             return None, None
         data_c1 = category_.split(",")
         for c in data_c1:
-            for j in range(len(categories) - 1, 0, -1):
+            for j in range(len(categories) - 1, -1, -1):
                 if categories[j].lower().replace(" ", "") in c.lower().replace(" ", ""):
                     c1.append(categories[j])
                     cate_stack.append(categories[j])
