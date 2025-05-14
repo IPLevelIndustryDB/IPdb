@@ -1,6 +1,10 @@
 # IPdb
 [[WWW'25] IPdb: A High-precision Industry Categorization of IP Addresses](https://dl.acm.org/doi/10.1145/3696410.3714669)
 
+**The IPdb dataset is in [Release](https://github.com/IPLevelIndustryDB/IPdb/releases)**
+
+## IPdb system
+
 We also provide the source code of IPdb system
 
 To use the system, you should
