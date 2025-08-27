@@ -65,3 +65,7 @@ To use the system, you should
     to combine the results of individual LLMs
 
 The results will be stored in the database.
+
+
+## Labeled Org texts
+We provide a gold-standard dataset of manually labeled organizational texts, located at ./org_text_to_industry_anon.csv, for training the combination layer and for evaluation.
